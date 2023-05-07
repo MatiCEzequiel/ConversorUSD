@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conversor de Pesos a Dólares</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Conversor de Pesos a Dólares</h1>
+    <div class="input-container">
+      <label for="pesos">Ingrese la cantidad de Pesos Argentinos:</label>
+      <input type="number" id="pesos" step="0.01" min="0" onchange="convertir()" />
+    </div>
+    <div class="result-container">
+      <label for="dolares">Valor en Dólares:</label>
+      <input type="text" id="dolares" readonly />
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
